@@ -72,6 +72,23 @@ main h1 {
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+form {
+  background-color: #f8f7f7;
+  width: 100%;
+  max-width: 380px;
+  padding: 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .usuario1, .contra {
   margin-bottom: 16px;
 }
