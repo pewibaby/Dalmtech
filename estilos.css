@@ -89,6 +89,15 @@ form h1 {
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.contra {
+  position: relative;
+}
+
+#ojito {
+  position: absolute;
+  right: 10px;
+  top: 32px;
+}
 .usuario1, .contra {
   margin-bottom: 16px;
 }
