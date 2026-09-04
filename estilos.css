@@ -206,10 +206,12 @@ footer a:hover {
 
 
 @media (max-width: 480px) {
-  .logotipo {
+  logotipo {
     margin-bottom: 12px;
   }
-
+header {
+    margin-bottom: 8px;
+  }
   .logotipo img {
     width: 40px;
     height: 40px;
