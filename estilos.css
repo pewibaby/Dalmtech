@@ -113,7 +113,24 @@ input[type="password"] {
   background-color: #ffffff;
   box-sizing: border-box;
 }
+#ojito {
+  position: absolute;
+  right: 12px;
+  top: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: color 0.2s ease;
+}
 
+#ojito:hover {
+  color: #1e293b;
+}
 /* Mantener el borde negro al hacer clic */
 input[type="text"]:focus,
 input[type="password"]:focus {
